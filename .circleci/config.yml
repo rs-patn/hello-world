@@ -25,7 +25,7 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run: echo "A more familiar hi"
+      - run: echo "A really familiar hi"
       - attach_workspace:
           # Must be absolute path or relative path from working_directory
           at: my_workspace
